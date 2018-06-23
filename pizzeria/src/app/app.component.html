@@ -1,0 +1,44 @@
+<header>
+  <nav class="nav navbar-nav">
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-0">
+          <h2>
+            Pizzeria
+          </h2>
+        </div>
+      <div class="col-md-1">
+        <a [routerLink]="['']">
+           <img id="image" src="../assets/PizzeriaLogo.png" alt="logo">
+        </a>
+      </div>
+      <div class="col-md-2">
+        <a [routerLink]="['/pizza']">
+          <h3>
+            Pizza
+          </h3>
+        </a>
+      </div>
+      <div class="col-md-2">
+        <a [routerLink]="['/coust']">
+          <h3>
+             ur own!!!
+           </h3>
+        </a>
+      </div>
+      <div class="col-md-6" align="center">
+          <button class="btn btn-warning">
+            <span class="glyphicon glyphicon-shopping-cart">Cart</span>
+          </button>
+      </div>
+    </div>
+  </div>
+  </nav>
+</header>
+<router-outlet></router-outlet>
+<footer id="footer">
+  <hr>
+  <p>
+    Copyright @2017. All rights reserverd
+  </p>
+</footer>
